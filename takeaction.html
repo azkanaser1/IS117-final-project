@@ -1,0 +1,142 @@
+<!-- DEVELOPER: Azka Naser, IS117-101, Fall 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take Action</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <!-- javascript file -->
+    <script src="scripts/java.js" defer></script>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-end
+                    bgcolor navbar-dark
+                    col-12">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"><img src="images/flaglogo.webp" class="rounded-circle" alt="Logo" height="30" width="30"> Pakistan Flood Relief </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Learn
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="aboutthefloods.html">About the Floods</a>
+                            <a class="dropdown-item" href="keyfacts.html">Key Facts</a>
+                            <a class="dropdown-item" href="recovery.html">Road to Recovery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="takeaction.html">Take Action</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="flex-container-action">
+        <div class="action-info-container">
+            <h3 class="text-center" id="takeactionh3">
+                Take Action
+            </h3>
+            <p>
+                The humanitarian response towards helping those affected by Pakistan’s floods is being led
+                by the Pakistani government. With assistance from United Nations agencies, other humanitarian
+                organizations, and donors like yourself, assistance is being provided to flood-affected
+                communities.
+                <br><br>
+                Some critical needs of these flood-affected districts include:
+                <br>
+                <ul>
+                <li>Food security</li>
+                <li>Shelter</li>
+                <li>Healthcare</li>
+                <li>Education support</li>
+                <li>Cash assistance</li>
+                </ul>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac arcu condimentum,
+                tincidunt est et, dapibus quam. Duis volutpat hendrerit malesuada. Donec nec laoreet augue.
+                Vestibulum pretium urna id magna laoreet, nec faucibus elit mattis. Phasellus mattis tellus leo,
+                eget posuere massa efficitur sit amet.
+                </p>
+        </div>
+
+        <!-- Checklist Container -->
+        <div class="action-list-container" id="checklist">
+            <h2 class="checklist-header">
+                Action Checklist
+            </h2>
+            <p id="instructions">
+                Complete the action checklist if you would like to help support the recovery of those affected
+                in Pakistan.
+            </p>
+            <ul id="my-list">
+                <li class="action-li">
+                    Step 1: Read about the floods by visiting the pages under the “Learn” section
+                </li>
+                <li class="action-li">
+                    Step 2: Educate others about what is happening in Pakistan
+                </li>
+                <li class="action-li">
+                    Step 3: Contact us to stay updated by visiting the “Contact” page
+                </li>
+                <li class="action-li">
+                    Step 4: Donate using the button below
+                </li>
+            </ul>
+            <br>
+            <a href="https://www.google.com/url?q=https://www.unicefusa.org/stories/unicef-rushes-aid-families-hit-heavy-monsoon-rains-pakistan/40307&sa=D&source=editors&ust=1670025707098881&usg=AOvVaw1z8SyW49u8zWs962SA7hm2" target="_blank" class="donatebutton">Donate</a>
+            <br>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; 2022, Azka Naser |  Privacy Statement  |  Terms of Service </span>
+        </div>
+    </div>
+</footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+/* DEVELOPER: Azka Naser, IS117-101, Fall 2022 */
+
+/******************/
+/* General Styles */
+/******************/
+
+body {
+    background: #D0F5D1;
+}
+
+#maintitle {
+    font-size: 90px;
+    text-shadow: 5px 5px #0f5132;
+}
+
+h3 {
+    font-family: 'Lilita One', cursive;
+    color: #4FA850;
+    font-size: 50px;
+    text-shadow: 3px 3px #0f5132;
+}
+h4 {
+    font-family: 'Lilita One', cursive;
+}
+/*********************/
+/* Styles for Navbar */
+/*********************/
+
+.navbar-brand {
+    color: black !important;
+    font-family: 'Lilita One', cursive;
+}
+.bgcolor {
+    background: #A0E6A2;
+}
+.nav-link {
+    color: black !important;
+    font-family: 'Lilita One', cursive;
+}
+
+.dropdown-menu {
+    background: #A0E6A2;
+    font-family: 'Lilita One', cursive;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+/********************/
+/* Styles for Cards */
+/********************/
+
+.btn-primary {
+    background: green;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+h5 {
+    font-family: 'Lilita One', cursive;
+}
+.card {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*********************/
+/* Styles for Footer */
+/*********************/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #A0E6A2;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.6rem;
+}
+
+.keyfactslist {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+h2.col-sm-12 {
+    font-family: 'Lilita One', cursive;
+}
+
+.img-fluid. {
+    max-width: 100%;
+    height: auto;
+}
+
+/*************************/
+/* Road to Recovery Page */
+/*************************/
+
+.section {
+    justify-content: center;
+}
+.paragraphs {
+    margin: 10px;
+}
+.section .recovery-img1 {
+    margin: 20px 20px 20px 20px;
+    float: right;
+    width: 50%;
+}
+.section .recovery-img2 {
+    margin: 20px 20px 20px 20px;
+    float: right;
+    width: 50%;
+}
+
+/*************************/
+/* About the Floods Page */
+/*************************/
+
+#abouttitle {
+    margin-top: 10px;
+}
+.aboutimages img {
+    width: 80%;
+    margin: 20px;
+}
+#aboutimage1 {
+    margin-top: 40px;
+}
+
+/****************/
+/* Contact Page */
+/****************/
+
+#contact-h2 {
+    font-family: Calibri;
+    color: #449245;
+    font-size: 40px;
+    text-shadow: 2px 2px #0c4128;
+    margin-left: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #5F8C61;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+input[type=submit] {
+    background-color: #0c4128;
+    color: #E9E8E8;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    border-radius: 7px;
+}
+
+input[type=submit]:hover {
+    background-color: #84C087;
+    color: #0c4128;
+    box-sizing: border-box;
+}
+
+.column {
+    display: inline-block;
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column2 {
+    display: inline-block;
+    width: 50%;
+    margin-top: -27px;
+    margin-bottom: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+/********************************************/
+/************* TAKE ACTION PAGE *************/
+/********************************************/
+
+.flex-container-action {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+}
+
+/* Left box under title; item in .flex-container */
+.action-info-container {
+    width: 180%;
+    margin: 2% 5% 5% 4%;
+    padding: 20px;
+    flex-grow: 2;
+}
+
+.action-info-container p {
+    width: 100%;
+}
+
+#takeactionh3 {
+    width: 100%;
+    padding: 10px;
+    flex-grow: 2;
+}
+
+/* Right box under title; item in .flex-container */
+.action-list-container {
+    width: 110%;
+    padding: 35px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+/* For elements inside the action-list-container */
+#checklist {
+    background-color: white;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Header in the list container */
+.checklist-header {
+    text-align: center;
+    color: #0c4128;
+    letter-spacing: 1px;
+    margin: 15px 0 15px 0;
+}
+
+/* Instructions inside the list container */
+#instructions {
+    font: 14px "Roboto", sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+/* Div container for the action item list */
+#my-list {
+    padding: 2px 0 0 10px;
+    margin: 0;
+    font-size: 12pt;
+}
+
+/* Styling for individual action list items */
+#my-list li {
+    cursor: pointer;
+    padding: 3px 20px 10px 35px;
+    position: relative;
+    list-style-type: none;
+    transition: 0.2s;
+    width: 104%;
+}
+
+/* Styling for the check boxes */
+#my-list li::before {
+    content: "";
+    position: absolute;
+    border-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 3px 3px 3px #0c4128;
+    top: 10px;
+    left: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+/* Creating the checkmark */
+#my-list li:hover {
+    background: #f3f3f3;
+    color: #0c4128;
+}
+
+/* Change check square color when cursor hovers over */
+#my-list li:hover::before {
+    border-color: #0c4128;
+    border-style: solid;
+}
+
+/* Strikethrough */
+#my-list li.all-done {
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+#my-list li.all-done::before {
+    content: "";
+    position: absolute;
+    border-color: #0c4128;
+    border-width: 0 2px 2px 0;
+    top: 5px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Donate Button*/
+.donatebutton {
+    background-color: #0c4128;
+    color: #E9E8E8;
+    transition-duration: 0.4s;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+}
+
+.donatebutton:hover {
+    background-color: #84C087;
+    color: #0c4128;
+    box-sizing: border-box;
+}
+
+/******************************************************/
+/** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
+/******************************************************/
+
+@media only screen and (max-width: 700px) {
+    .flex-container-action {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .flex-container-action {
+        flex-wrap: wrap;
+    }
+
+    .left-container {
+        width: 50%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .flex-container-action {
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .flex-container-action {
+        flex-wrap: nowrap;
+    }
+
+    #list-container {
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px 20px 40px 40px;
+    }
+
+    .left-container {
+        width: 50%;
+        margin-right: 10%;
+    }
+}
